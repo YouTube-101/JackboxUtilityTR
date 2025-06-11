@@ -2676,7 +2676,46 @@
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-9",
                 "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-9"
             },
-            "patchs": [],
+            "patchs": [
+                {
+                    "id": "jpp9_tr",
+                    "name": "Jackbox Party Paketi 9",
+                    "small_description": "Jackbox Party Paketi 9'un Türkçe yaması",
+                    "description": "Jackbox Party Paketi 9'un Türkçe yaması",
+                    "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack9/pp9.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://izlence.jackbox.tr/assets/patchs/pp9.json",
+                        "version_property": "TRModVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native"
+                    ],
+                    "components": [
+                        {
+                            "id": "roomerang_patch",
+                            "linked_game": "roomerang",
+                            "name": "Roomerang",
+                            "description": "",
+                            "authors": "Emeği Geçenler için linklere bakın!",
+                            "small_description": "",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
             "games": [
                 {
                     "id": "fibbage4",
@@ -3257,7 +3296,76 @@
                 "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-10-c6f152",
                 "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-10"
             },
-            "patchs": [],
+            "patchs": [
+                {
+                    "id": "jpp10_tr",
+                    "name": "Jackbox Party Paketi 10",
+                    "small_description": "Jackbox Party Paketi 10'un Türkçe yaması",
+                    "description": "Jackbox Party Paketi 10'un Türkçe yaması",
+                    "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack10/pp10.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://izlence.jackbox.tr/assets/patchs/pp10.json",
+                        "version_property": "TRModVersion"
+                    },
+                    "supported_platforms": [
+                        "windows",
+                        "linux",
+                        "mac"
+                    ],
+                    "supported_launchers": [
+                        "steam",
+                        "native"
+                    ],
+                    "components": [
+                        {
+                            "id": "teeko2_patch",
+                            "linked_game": "teeko2",
+                            "name": "T-K.O. 2",
+                            "description": "",
+                            "authors": "Emeği Geçenler için linklere bakın!",
+                            "small_description": "",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "timejinx_patch",
+                            "linked_game": "timejinx",
+                            "name": "Zaman Kilidi",
+                            "description": "",
+                            "authors": "Emeği Geçenler için linklere bakın!",
+                            "small_description": "",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        },
+                        {
+                            "id": "dodoremi_patch",
+                            "linked_game": "dodoremi",
+                            "name": "Dodo Re Mi",
+                            "description": "",
+                            "authors": "Emeği Geçenler için linklere bakın!",
+                            "small_description": "",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": true,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+                }
+            ],
             "games": [
                 {
                     "id": "teeko2",

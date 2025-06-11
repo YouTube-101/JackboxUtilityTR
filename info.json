@@ -1,15 +1,15 @@
 {
     "id": "jackbox-tr",
     "name": "Jackbox Türkçe",
-    "description": "Jackbox Oyunlarının Türkçe Yamaları!",
-    "image": "https://izlence.jackbox.tv.tr/assets/news_images/logo.png",
+    "description": "Jackbox Oyunlarının Türkçe Yama Sunucusu",
+    "image": "https://izlence.jackbox.tr/assets/news_images/logo.png",
     "urls": [
         {
             "versions": [
                 "1.0.0"
             ],
-            "api": "https://izlence.jackbox.tv.tr/api/v2/",
-            "assets": "https://izlence.jackbox.tv.tr/assets"
+            "api": "https://izlence.jackbox.tr/api/v2/",
+            "assets": "https://izlence.jackbox.tr/assets"
         }
     ],
     "controller": "jackbox.tr",
