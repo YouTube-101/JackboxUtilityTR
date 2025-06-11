@@ -21,6 +21,11 @@
             "icon": "globe",
             "url": "https://proje.jackbox.tr/",
             "text": "Proje Hakkında"
+        },
+        {
+            "icon": "people",
+            "url": "https://proje.jackbox.tr/credits",
+            "text": "Emeği Geçenler"
         }
     ]
 }
