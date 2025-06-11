@@ -76,13 +76,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/331670/The_Jackbox_Party_Pack/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-1",
-                "jackbox_games_store": "http://shrsl.com/44k1h"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-1"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "ydkj2015",
                     "name": "Jack'i Bilmiyorsun 2015",
+                    "internal_name": "YDKJ2015",
                     "background": "game_backgrounds/YDKJ2015.webp",
                     "path": "games/YDKJ2015",
                     "game_info": {
@@ -90,7 +91,6 @@
                             "min": 1,
                             "max": 4
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -122,11 +122,17 @@
                         "path": "loaders/tjpp1/ydkj2015.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "drawful",
                     "name": "Drawful",
+                    "internal_name": "Drawful",
                     "background": "game_backgrounds/Drawful.webp",
                     "path": "games/Drawful",
                     "game_info": {
@@ -134,7 +140,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -164,11 +169,17 @@
                         "path": "loaders/tjpp1/drawful.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "wordspud",
                     "name": "Sözcük Patatesi",
+                    "internal_name": "WordSpud",
                     "background": "game_backgrounds/WordSpud.webp",
                     "path": "games/WordSpud",
                     "game_info": {
@@ -176,7 +187,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "10 - 15 dakika",
                         "playtime": {
                             "min": 10,
                             "max": 15
@@ -189,8 +199,8 @@
                         "subtitles": false,
                         "type": "VERSUS",
                         "translation": "ENGLISH",
-                        "tagline": "ETRAFTA DÖNDÜRÜN",
-                        "small_description": "ETRAFTA DÖNDÜRÜN",
+                        "tagline": "ETRAFTA DÖNDÜR",
+                        "small_description": "ETRAFTA DÖNDÜR",
                         "description": "Sözcüklerin tüm gece dönmesini sağlayın! Sadece sana gelen kelimeyi bitir, “Posta___.” gibi. Posta geliştirme mi dedin? Çok güzel yazdın.",
                         "images": [
                             "game_images/WordSpud/wordspud.mp4",
@@ -205,11 +215,17 @@
                         "path": "loaders/tjpp1/wordspud.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "lieswatter",
                     "name": "Yalansavar",
+                    "internal_name": "LieSwatterParty",
                     "background": "game_backgrounds/LieSwatter.webp",
                     "path": "games/LieSwatter",
                     "game_info": {
@@ -217,7 +233,6 @@
                             "min": 1,
                             "max": 100
                         },
-                        "length": "10 - 15 dakika",
                         "playtime": {
                             "min": 10,
                             "max": 15
@@ -246,11 +261,17 @@
                         "path": "loaders/tjpp1/lieswatter.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "fibbagexl",
                     "name": "Fibbage XL",
+                    "internal_name": "FibbageXL",
                     "background": "game_backgrounds/FibbageXL.webp",
                     "path": "games/FibbageXL",
                     "game_info": {
@@ -258,7 +279,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -288,6 +308,11 @@
                     "loader": {
                         "path": "loaders/tjpp1/fibbagexl.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -328,13 +353,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/397460/The_Jackbox_Party_Pack_2/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-2",
-                "jackbox_games_store": "http://shrsl.com/44k1m"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-2"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "fibbage2",
                     "name": "Fibbage 2",
+                    "internal_name": "Fibbage2",
                     "background": "game_backgrounds/Fibbage2.webp",
                     "path": "games/Fibbage2",
                     "game_info": {
@@ -342,7 +368,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -375,11 +400,17 @@
                         "path": "loaders/tjpp2/fibbage2.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "earwax",
                     "name": "Kulak Kiri",
+                    "internal_name": "Earwax",
                     "background": "game_backgrounds/Earwax.webp",
                     "path": "games/Earwax",
                     "game_info": {
@@ -387,7 +418,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 25 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 25
@@ -417,11 +447,17 @@
                         "path": "loaders/tjpp2/earwax.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "bidiots",
                     "name": "Artallar",
+                    "internal_name": "Auction",
                     "background": "game_backgrounds/Bidiots.webp",
                     "path": "games/Bidiots",
                     "game_info": {
@@ -429,7 +465,6 @@
                             "min": 3,
                             "max": 6
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -461,11 +496,17 @@
                         "path": "loaders/tjpp2/bidiots.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "quiplashxl",
                     "name": "Quiplash XL",
+                    "internal_name": "QuiplashXL",
                     "background": "game_backgrounds/QuiplashXL.webp",
                     "path": "games/QuiplashXL",
                     "game_info": {
@@ -473,7 +514,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -505,17 +545,22 @@
                         "path": "loaders/tjpp2/quiplashxl.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "bombcorp",
                     "name": "Bomba Şirketi",
+                    "internal_name": "BombInterns",
                     "game_info": {
                         "players": {
                             "min": 1,
                             "max": 4
                         },
-                        "length": "5 - 10 dakika",
                         "playtime": {
                             "min": 5,
                             "max": 10
@@ -548,6 +593,11 @@
                     "loader": {
                         "path": "loaders/tjpp2/bombcorp.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -588,13 +638,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-3",
-                "jackbox_games_store": "http://shrsl.com/44k1n"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-3"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "quiplash2",
                     "name": "Quiplash 2",
+                    "internal_name": "Quiplash2",
                     "background": "game_backgrounds/Quiplash2.webp",
                     "path": "games/Quiplash2",
                     "game_info": {
@@ -602,7 +653,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -634,11 +684,17 @@
                         "path": "loaders/tjpp3/quiplash2.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "triviamurderparty",
                     "name": "Bilgi Cinayet Partisi",
+                    "internal_name": "triviadeath",
                     "background": "game_backgrounds/TriviaMurderParty.webp",
                     "path": "games/TriviaMurderParty",
                     "game_info": {
@@ -646,7 +702,6 @@
                             "min": 1,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -678,11 +733,17 @@
                         "path": "loaders/tjpp3/triviamurderparty.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "guesspionage",
                     "name": "Guesspionage",
+                    "internal_name": "PollPosition",
                     "background": "game_backgrounds/Guesspionage.webp",
                     "path": "games/Guesspionage",
                     "game_info": {
@@ -690,7 +751,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "10 - 15 dakika",
                         "playtime": {
                             "min": 10,
                             "max": 15
@@ -722,11 +782,17 @@
                         "path": "loaders/tjpp3/guesspionage.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "fakinit",
-                    "name": "Kandır Beni",
+                    "name": "Kandır Beni!",
+                    "internal_name": "FakinIt",
                     "background": "game_backgrounds/FakinIt.webp",
                     "path": "games/FakinIt",
                     "game_info": {
@@ -734,7 +800,6 @@
                             "min": 3,
                             "max": 6
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -768,11 +833,17 @@
                         "path": "loaders/tjpp3/fakinit.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "teeko",
                     "name": "T-K.O.",
+                    "internal_name": "AwShirt",
                     "background": "game_backgrounds/TeeKO.webp",
                     "path": "games/TeeKO",
                     "game_info": {
@@ -780,7 +851,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -812,6 +882,11 @@
                     "loader": {
                         "path": "loaders/tjpp3/teeko.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -852,13 +927,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/610180/The_Jackbox_Party_Pack_4/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-4",
-                "jackbox_games_store": "http://shrsl.com/44k1o"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-4"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "fibbage3",
                     "name": "Fibbage 3",
+                    "internal_name": "Fibbage3",
                     "background": "game_backgrounds/Fibbage3.webp",
                     "path": "games/Fibbage3",
                     "game_info": {
@@ -866,7 +942,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -899,11 +974,17 @@
                         "path": "loaders/tjpp4/fibbage3.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "survivetheinternet",
                     "name": "Survive the Internet",
+                    "internal_name": "SurviveTheInternet",
                     "background": "game_backgrounds/SurviveTheInternet.webp",
                     "path": "games/SurviveTheInternet",
                     "game_info": {
@@ -911,7 +992,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -943,11 +1023,17 @@
                         "path": "loaders/tjpp4/survivetheinternet.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "monsterseekingmonster",
                     "name": "Canavar Canavara Aşık",
+                    "internal_name": "MonsterMingle",
                     "background": "game_backgrounds/MonsterSeekingMonster.webp",
                     "path": "games/MonsterMingle",
                     "game_info": {
@@ -955,7 +1041,6 @@
                             "min": 3,
                             "max": 7
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -988,11 +1073,17 @@
                         "path": "loaders/tjpp4/monsterseekingmonster.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "bracketeering",
                     "name": "Bracketeering",
+                    "internal_name": "Bracketeering",
                     "background": "game_backgrounds/Bracketeering.webp",
                     "path": "games/Bracketeering",
                     "game_info": {
@@ -1000,7 +1091,6 @@
                             "min": 3,
                             "max": 16
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1032,11 +1122,17 @@
                         "path": "loaders/tjpp4/bracketeering.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "civicdoodle",
                     "name": "Civic Doodle",
+                    "internal_name": "Overdrawn",
                     "background": "game_backgrounds/CivicDoodle.webp",
                     "path": "games/CivicDoodle",
                     "game_info": {
@@ -1044,7 +1140,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1075,6 +1170,11 @@
                     "loader": {
                         "path": "loaders/tjpp4/civicdoodle.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -1109,16 +1209,20 @@
                     "native": "jbg.config.jet"
                 }
             },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 5.app/Contents/Resources/macos"
+            },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/774461/The_Jackbox_Party_Pack_5/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-5",
-                "jackbox_games_store": "http://shrsl.com/44k1p"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-5"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "ydkj_fullstream",
                     "name": "Jack'i Bilmiyorsun: Tam Yayın",
+                    "internal_name": "YDKJ2018",
                     "background": "game_backgrounds/YDKJFullStream.webp",
                     "path": "games/YDKJ2018",
                     "game_info": {
@@ -1126,7 +1230,6 @@
                             "min": 1,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -1158,11 +1261,17 @@
                         "path": "loaders/tjpp5/ydkjfullstream.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "splittheroom",
                     "name": "Odayı Ayırın",
+                    "internal_name": "SplitTheRoom",
                     "background": "game_backgrounds/SplitTheRoom.webp",
                     "path": "games/SplitTheRoom",
                     "game_info": {
@@ -1170,7 +1279,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -1203,11 +1311,17 @@
                         "path": "loaders/tjpp5/splittheroom.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "mad_verse_city",
                     "name": "Kızgın Söz Şehri",
+                    "internal_name": "RapBattle",
                     "background": "game_backgrounds/MadVerseCity.webp",
                     "path": "games/RapBattle",
                     "game_info": {
@@ -1215,7 +1329,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1247,11 +1360,17 @@
                         "path": "loaders/tjpp5/madversecity.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "zeeple_dome",
                     "name": "Zeeple Kubbesi",
+                    "internal_name": "SlingShoot",
                     "background": "game_backgrounds/ZeepleDome.webp",
                     "path": "games/ZeepleDome",
                     "game_info": {
@@ -1259,7 +1378,6 @@
                             "min": 1,
                             "max": 6
                         },
-                        "length": "10 - 15 dakika",
                         "playtime": {
                             "min": 10,
                             "max": 15
@@ -1289,11 +1407,17 @@
                         "path": "loaders/tjpp5/zeepledome.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "patentlystupid",
-                    "name": "Patentlice Aptallık",
+                    "name": "Patentli Manyaklık",
+                    "internal_name": "PatentlyStupid",
                     "background": "game_backgrounds/PatentlyStupid.webp",
                     "path": "games/PatentlyStupid",
                     "game_info": {
@@ -1301,7 +1425,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1335,6 +1458,11 @@
                     "loader": {
                         "path": "loaders/tjpp5/patentlystupid.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -1375,13 +1503,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-6",
-                "jackbox_games_store": "http://shrsl.com/44k1q"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-6"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "trivia_murder_party_2",
                     "name": "Bilgi Cinayet Partisi 2",
+                    "internal_name": "TriviaDeath2",
                     "background": "game_backgrounds/TriviaMurderParty2.webp",
                     "path": "games/TriviaMurderParty2",
                     "game_info": {
@@ -1389,7 +1518,6 @@
                             "min": 1,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -1422,11 +1550,17 @@
                         "path": "loaders/tjpp6/triviamurderparty2.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "role_models",
                     "name": "Rol Modelleri",
+                    "internal_name": "RoleModels",
                     "background": "game_backgrounds/RoleModels.webp",
                     "path": "games/RoleModels",
                     "game_info": {
@@ -1434,7 +1568,6 @@
                             "min": 3,
                             "max": 6
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -1467,11 +1600,17 @@
                         "path": "loaders/tjpp6/rolemodels.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "jokeboat",
                     "name": "Şaka Gemisi",
+                    "internal_name": "Jokeboat",
                     "background": "game_backgrounds/JokeBoat.webp",
                     "path": "games/JokeBoat",
                     "game_info": {
@@ -1479,7 +1618,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1513,11 +1651,17 @@
                         "path": "loaders/tjpp6/jokeboat.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "dictionarium",
                     "name": "Sözlükaryum",
+                    "internal_name": "Ridictionary",
                     "background": "game_backgrounds/Dictionarium.webp",
                     "path": "games/Ridictionary",
                     "game_info": {
@@ -1525,7 +1669,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "10 - 15 dakika",
                         "playtime": {
                             "min": 10,
                             "max": 15
@@ -1557,11 +1700,17 @@
                         "path": "loaders/tjpp6/dictionarium.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "pushthebutton",
                     "name": "Butona Basın",
+                    "internal_name": "PushTheButton",
                     "background": "game_backgrounds/PushTheButton.webp",
                     "path": "games/PushTheButton",
                     "game_info": {
@@ -1569,7 +1718,6 @@
                             "min": 4,
                             "max": 10
                         },
-                        "length": "15 - 25 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 25
@@ -1603,6 +1751,11 @@
                     "loader": {
                         "path": "loaders/tjpp6/pushthebutton.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -1643,13 +1796,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1211630/The_Jackbox_Party_Pack_7/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-7",
-                "jackbox_games_store": "http://shrsl.com/44k1s"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-7"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "quiplash3",
                     "name": "Quiplash 3",
+                    "internal_name": "Quiplash3",
                     "background": "game_backgrounds/Quiplash3.webp",
                     "path": "games/Quiplash3",
                     "game_info": {
@@ -1657,7 +1811,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -1689,11 +1842,17 @@
                         "path": "loaders/tjpp7/quiplash3.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "thedevilsandthedetails",
                     "name": "Şeytanlar ve Detaylar",
+                    "internal_name": "Everyday",
                     "background": "game_backgrounds/TheDevilsAndTheDetails.webp",
                     "path": "games/Everyday",
                     "game_info": {
@@ -1701,7 +1860,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1735,11 +1893,17 @@
                         "path": "loaders/tjpp7/thedevilsandthedetails.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "champdup",
                     "name": "Champ'd Up",
+                    "internal_name": "WorldChampions",
                     "background": "game_backgrounds/Champdup.webp",
                     "path": "games/WorldChampions",
                     "game_info": {
@@ -1747,7 +1911,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1780,11 +1943,17 @@
                         "path": "loaders/tjpp7/champdup.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "talkingpoints",
                     "name": "Konuşma Noktaları",
+                    "internal_name": "JackboxTalks",
                     "background": "game_backgrounds/TalkingPoints.webp",
                     "path": "games/JackboxTalks",
                     "game_info": {
@@ -1792,7 +1961,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1822,21 +1990,21 @@
                             "writing"
                         ]
                     },
-                    "internal_name": "JackboxTalks",
+                    "loader": {
+                        "path": "loaders/tjpp7/talkingpoints.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp7/talkingpoints.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "blatherround",
                     "name": "Boşlukumsu Boşluk",
+                    "internal_name": "BlankyBlank",
                     "background": "game_backgrounds/BlatherRound.webp",
                     "path": "games/BlankyBlank",
                     "game_info": {
@@ -1844,7 +2012,6 @@
                             "min": 2,
                             "max": 6
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -1878,6 +2045,302 @@
                     "loader": {
                         "path": "loaders/tjpp7/blatherround.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp7.ico",
+            "background": "backgrounds/jpp7.jpg"
+        },
+        {
+            "id": "jpp7_ms",
+            "name": "Jackbox Parti Paketi 7 [Microsoft Store]",
+            "description": "Çıktığı yıl: 2020",
+            "launchers_id": {
+                "steam": "TJPP7"
+            },
+            "executables": {
+                "windows": "TJPP7.exe",
+                "mac": "The Jackbox Party Pack 7.app/Contents/MacOS/The Jackbox Party Pack 7",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp7_ms/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "config.jet",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "config.jet",
+                    "epic_games": "config.jet",
+                    "native": "config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 7.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-pack-7/9nrvf2p89zlx"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "quiplash3_ms",
+                    "name": "Quiplash 3",
+                    "internal_name": "Quiplash3",
+                    "background": "game_backgrounds/Quiplash3.webp",
+                    "path": "games/Quiplash3",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori yanıtlarına oy verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "İstediğini Söylemenin Parti Oyunu",
+                        "small_description": "İstediğini Söylemenin Parti Oyunu",
+                        "description": "İstediğini söylemenin üçüncü parti oyunu! İstemlere yanıt verin ve arkadaşlarınızı güldürün… muhtemelen.",
+                        "images": [
+                            "game_images/Quiplash3/quiplash3.mp4",
+                            "game_images/Quiplash3/quiplash3_1.webp",
+                            "game_images/Quiplash3/quiplash3_2.webp",
+                            "game_images/Quiplash3/quiplash3_3.webp",
+                            "game_images/Quiplash3/quiplash3_4.webp"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp7_ms/quiplash3.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "thedevilsandthedetails_ms",
+                    "name": "Şeytanlar ve Detaylar",
+                    "internal_name": "Everyday",
+                    "background": "game_backgrounds/TheDevilsAndTheDetails.webp",
+                    "path": "games/Everyday",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler, evin kedisidir ve diğer oyuncular için sorun çıkartabilirler.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Tartışma oyunu olduğundan dolayı, takım görevlerini başarmak için oyuncuların en azından birbirlerini duyabilmeleri önerilir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Bu oyunun moderasyona ihtiyacı yoktur.",
+                        "subtitles": true,
+                        "type": "COOP",
+                        "translation": "ENGLISH",
+                        "tagline": "Görevlerinizi yapın!",
+                        "small_description": "Görevlerinizi yapın!",
+                        "description": "Ortalama bir kente taşınan bir şeytan ailesisiniz. İnsan hayatının günlük işkencesinde sağ kalabilir misiniz?",
+                        "images": [
+                            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails.mp4",
+                            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_1.webp",
+                            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_2.webp",
+                            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_3.webp",
+                            "game_images/TheDevilsAndTheDetails/thedevilsandthedetails_4.webp"
+                        ],
+                        "tags": [
+                            "talking",
+                            "deduction"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp7_ms/thedevilsandthedetails.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "champdup_ms",
+                    "name": "Champ'd Up",
+                    "internal_name": "WorldChampions",
+                    "background": "game_backgrounds/Champdup.webp",
+                    "path": "games/WorldChampions",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori yanıtlarına oy verebilirler. Ek olarak, oyuncular için çeşitli cesaretlendirme pankartları göstermek için oy verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "translation": "ENGLISH",
+                        "type": "VERSUS",
+                        "tagline": "Muhteşem çizim savaşı",
+                        "small_description": "Muhteşem çizim savaşı",
+                        "description": "Garip başlıklar için karakterlerin dövüştüğü yer olan Skralezyum'a girin. Ağır favoriyi yere devirebilir misin?",
+                        "images": [
+                            "game_images/ChampdUp/champdup.mp4",
+                            "game_images/ChampdUp/champdup_1.webp",
+                            "game_images/ChampdUp/champdup_2.webp",
+                            "game_images/ChampdUp/champdup_3.webp",
+                            "game_images/ChampdUp/champdup_4.webp"
+                        ],
+                        "tags": [
+                            "drawing",
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp7_ms/champdup.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "talkingpoints_ms",
+                    "name": "Konuşma Noktaları",
+                    "internal_name": "JackboxTalks",
+                    "background": "game_backgrounds/TalkingPoints.webp",
+                    "path": "games/JackboxTalks",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler, konuşma esnasında oy verebilir ve en sevdikleri konuşmanın sonunda bir ödül verebilir.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Sunum oyunu olduğundan dolayı, en azından oyuncuların birbirini duyabilmeleri önerilir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması ve \"Profil Fotoğrafları Engelle\" ayarının açılması oyuncuların avatarı için fotoğraf çekmesini engellemek için önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "ENGLISH",
+                        "tagline": "Çılgın konuşmalar",
+                        "small_description": "Çılgın konuşmalar",
+                        "description": "Hiç görmediğin görüntüler hakkında bir konuşma yap. Mantıklı olmasına gerek yok, olmazsa daha eğlenceli olur!",
+                        "images": [
+                            "game_images/TalkingPoints/talkingpoints.mp4",
+                            "game_images/TalkingPoints/talkingpoints_1.webp",
+                            "game_images/TalkingPoints/talkingpoints_2.webp",
+                            "game_images/TalkingPoints/talkingpoints_3.webp",
+                            "game_images/TalkingPoints/talkingpoints_4.webp"
+                        ],
+                        "tags": [
+                            "talking",
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp7_ms/talkingpoints.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "blatherround_ms",
+                    "name": "Boşlukumsu Boşluk",
+                    "internal_name": "BlankyBlank",
+                    "background": "game_backgrounds/BlatherRound.webp",
+                    "path": "games/BlankyBlank",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 6
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler, oyuncular eşliğinde doğru cevabı tahmin etmeye çalışır.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Tartışma oyunu olduğundan dolayı, oyuncuların en azından birbirlerini duyabilmeleri önerilir. Diğer tartışma oyunlarından fark olarak, bu oyun konuşma gerektirmeden sorunsuz oynanabilir.",
+                        "moderation": "CENSORING",
+                        "moderation_description": "Bu oyunun çalışma prensibi nedeniyle oyuncu yanıtları sansürlenemez. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "COOP",
+                        "translation": "ENGLISH",
+                        "tagline": "Durmayan tahminler",
+                        "small_description": "Durmayan tahminler",
+                        "description": "Hiçbir şeyin tam olarak bir şey ifade etmediği bir pop kültür tahmin oyunu! Bu bir iyi vakit geçirme deneyimi.",
+                        "images": [
+                            "game_images/BlatherRound/blatherround.mp4",
+                            "game_images/BlatherRound/blatherround_1.webp",
+                            "game_images/BlatherRound/blatherround_2.webp",
+                            "game_images/BlatherRound/blatherround_3.webp",
+                            "game_images/BlatherRound/blatherround_4.webp"
+                        ],
+                        "tags": [
+                            "knowledge",
+                            "writing",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp7_ms/blatherround.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -1918,13 +2381,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1552350/The_Jackbox_Party_Pack_8/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-8",
-                "jackbox_games_store": "http://shrsl.com/44k1u"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-8"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "drawful_animate",
                     "name": "Drawful Animasyon",
+                    "internal_name": "DrawfulAnimate",
                     "background": "game_backgrounds/DrawfulAnimate.webp",
                     "path": "games/DrawfulAnimate",
                     "game_info": {
@@ -1932,7 +2396,6 @@
                             "min": 3,
                             "max": 10
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -1961,21 +2424,21 @@
                             "writing"
                         ]
                     },
-                    "internal_name": "DrawfulAnimate",
+                    "loader": {
+                        "path": "loaders/tjpp8/drawfulanimate.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp8/drawfulanimate.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "the_wheel_of_enormous_proportions",
                     "name": "Muazzam Oranlar Çarkı",
+                    "internal_name": "TheWheel",
                     "background": "game_backgrounds/TheWheelOfEnormousProportions.webp",
                     "path": "games/TheWheel",
                     "game_info": {
@@ -1983,7 +2446,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "15 - 25 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 25
@@ -2011,21 +2473,21 @@
                             "knowledge"
                         ]
                     },
-                    "internal_name": "TheWheel",
+                    "loader": {
+                        "path": "loaders/tjpp8/thewheelofenormousproportions.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp8/thewheelofenormousproportions.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "jobjob",
                     "name": "İş İşi",
+                    "internal_name": "JobGame",
                     "background": "game_backgrounds/JobJob.webp",
                     "path": "games/JobGame",
                     "game_info": {
@@ -2033,7 +2495,6 @@
                             "min": 3,
                             "max": 10
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -2065,11 +2526,17 @@
                         "path": "loaders/tjpp8/jobjob.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "thepollmine",
                     "name": "Anket Madeni",
+                    "internal_name": "SurveyBomb",
                     "background": "game_backgrounds/ThePollMine.webp",
                     "path": "games/SurveyBomb",
                     "game_info": {
@@ -2077,7 +2544,6 @@
                             "min": 2,
                             "max": 10
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -2111,11 +2577,17 @@
                         "path": "loaders/tjpp8/thepollmine.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "weaponsdrawn",
                     "name": "Çizilmiş Silahlar",
+                    "internal_name": "MurderDetectives",
                     "background": "game_backgrounds/WeaponsDrawn.webp",
                     "path": "games/MurderDetectives",
                     "game_info": {
@@ -2123,7 +2595,6 @@
                             "min": 4,
                             "max": 8
                         },
-                        "length": "20 - 30 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 30
@@ -2155,15 +2626,14 @@
                             "deduction"
                         ]
                     },
-                    "internal_name": "MurderDetectives",
+                    "loader": {
+                        "path": "loaders/tjpp8/weaponsdrawn.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp8/weaponsdrawn.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 }
@@ -2204,52 +2674,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1850960/The_Jackbox_Party_Pack_9/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-pack-9",
-                "jackbox_games_store": "http://shrsl.com/44k1v"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-9"
             },
-            "patchs": [
-                {
-                    "id": "jpp9_tr",
-                    "name": "Jackbox Party Paketi 9",
-                    "small_description": "Jackbox Party Paketi 9'un Türkçe yaması",
-                    "description": "Jackbox Party Paketi 9'un Türkçe yaması",
-                    "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack9/pp9.zip",
-                    "configuration": {
-                        "version_origin": "repo_file",
-                        "version_file": "https://izlence.jackbox.tr/assets/patchs/pp9.json",
-                        "version_property": "TRModVersion"
-                    },
-                    "supported_platforms": [
-                        "windows",
-                        "linux",
-                        "mac"
-                    ],
-                    "supported_launchers": [
-                        "steam",
-                        "native"
-                    ],
-                    "components": [
-                        {
-                            "id": "roomerang_patch",
-                            "linked_game": "roomerang",
-                            "name": "Roomerang",
-                            "description": "Roomerang oyununun Türkçe yaması",
-                            "authors": "Emeği Geçenler için linklere bakın!",
-                            "small_description": "Roomerang oyununun Türkçe yaması",
-                            "patch_type": {
-                                "game_text": true,
-                                "game_assets": true,
-                                "game_subtitles": true,
-                                "website": true,
-                                "audios": false
-                            }
-                        }
-                    ]
-                }
-            ],
+            "patchs": [],
             "games": [
                 {
                     "id": "fibbage4",
                     "name": "Fibbage 4",
+                    "internal_name": "Fibbage4",
                     "background": "game_backgrounds/Fibbage4.webp",
                     "path": "games/Fibbage4",
                     "game_info": {
@@ -2257,7 +2689,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -2290,11 +2721,17 @@
                         "path": "loaders/tjpp9/fibbage4.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 },
                 {
                     "id": "roomerang",
                     "name": "Roomerang",
+                    "internal_name": "MakeFriends",
                     "background": "game_backgrounds/Roomerang.webp",
                     "path": "games/MakeFriends",
                     "game_info": {
@@ -2302,7 +2739,6 @@
                             "min": 4,
                             "max": 9
                         },
-                        "length": "25 - 30 dakika",
                         "playtime": {
                             "min": 25,
                             "max": 30
@@ -2330,21 +2766,21 @@
                             "writing"
                         ]
                     },
-                    "internal_name": "MakeFriends",
+                    "loader": {
+                        "path": "loaders/tjpp9/roomerang.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp9/roomerang.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "junktopia",
                     "name": "Çöpler Şehri",
+                    "internal_name": "AntiqueGame",
                     "background": "game_backgrounds/Junktopia.webp",
                     "path": "games/AntiqueGame",
                     "game_info": {
@@ -2352,7 +2788,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -2382,20 +2817,21 @@
                             "talking"
                         ]
                     },
+                    "loader": {
+                        "path": "loaders/tjpp9/junktopia.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp9/junktopia.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "nonsensory",
                     "name": "Nonsensory",
+                    "internal_name": "RangeGame",
                     "background": "game_backgrounds/Nonsensory.webp",
                     "path": "games/RangeGame",
                     "game_info": {
@@ -2403,7 +2839,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -2432,20 +2867,21 @@
                             "drawing"
                         ]
                     },
+                    "loader": {
+                        "path": "loaders/tjpp9/nonsensory.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp9/nonsensory.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "quixort",
                     "name": "Hızlı Sırala",
+                    "internal_name": "Lineup",
                     "background": "game_backgrounds/Quixort.webp",
                     "path": "games/Lineup",
                     "game_info": {
@@ -2453,7 +2889,6 @@
                             "min": 1,
                             "max": 10
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -2483,14 +2918,303 @@
                             "knowledge"
                         ]
                     },
+                    "loader": {
+                        "path": "loaders/tjpp9/quixort.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
                     },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp9.ico",
+            "background": "backgrounds/jpp9.jpg"
+        },
+        {
+            "id": "jpp9_ms",
+            "name": "Jackbox Parti Paketi 9 [Microsoft Store]",
+            "description": "Çıktığı yıl: 2022",
+            "launchers_id": {
+                "steam": "TJPP9"
+            },
+            "executables": {
+                "windows": "TJPP9.exe",
+                "mac": "The Jackbox Party Pack 9.app/Contents/MacOS/The Jackbox Party Pack 9",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp9_ms/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "jbg.config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 9.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-pack-9/9n1738c045fr"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "fibbage4_ms",
+                    "name": "Fibbage 4",
+                    "internal_name": "Fibbage4",
+                    "background": "game_backgrounds/Fibbage4.webp",
+                    "path": "games/Fibbage4",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler, ekranda diğerlerinin arasında görünmesi için bir yalana oy verebilir. Sonra, gerçeği bulmaya çalışabilir, oyuncuların yalanlarını seçince oyunculara puan ve en sevdiği yalanlara beğeni verebilir.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Moderatörler aynı zamanda oyuncuları atabilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Aşırı komik blöf yapma parti oyunu",
+                        "small_description": "Aşırı komik blöf yapma parti oyunu",
+                        "description": "Aşırı komik blöf yapma parti oyunu yeni bir Son Fibbage, video soruları, hayranlardan gönderilmiş sorular ve Fibbage Hakkında Yeterli modu ile geri dönüyor!",
+                        "images": [
+                            "game_images/Fibbage4/fibbage4.mp4",
+                            "game_images/Fibbage4/fibbage4_1.jpg",
+                            "game_images/Fibbage4/fibbage4_2.jpg",
+                            "game_images/Fibbage4/fibbage4_3.jpg",
+                            "game_images/Fibbage4/fibbage4_4.jpg"
+                        ],
+                        "tags": [
+                            "writing",
+                            "knowledge"
+                        ]
+                    },
                     "loader": {
-                        "path": "loaders/tjpp9/quixort.zip",
+                        "path": "loaders/tjpp9_ms/fibbage4.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "roomerang_ms",
+                    "name": "Roomerang",
+                    "internal_name": "MakeFriends",
+                    "background": "game_backgrounds/Roomerang.webp",
+                    "path": "games/MakeFriends",
+                    "game_info": {
+                        "players": {
+                            "min": 4,
+                            "max": 9
+                        },
+                        "playtime": {
+                            "min": 25,
+                            "max": 30
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler kendi favori yanıtlarına oy verebilirler. Ayrıca, oyuncular yanıtlarını yazarken çeşitli anketlere yanıt verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Moderatörler aynı zamanda oyuncuları atabilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Evde kalabilir misin?",
+                        "small_description": "Evde kalabilir misin?",
+                        "description": "En tepeye çıkmaya çalışırken Realite TV yıldızı haline gel! Oylama ile evden atılmamak için istemlere yanıt ver, yarışma hislerini ve rol yapma hislerini ortaya getir. Hiç korkma, atılsan bile dramaya bumerang gibi odaya geri gelirsin!",
+                        "images": [
+                            "game_images/Roomerang/roomerang.mp4",
+                            "game_images/Roomerang/roomerang_1.jpg",
+                            "game_images/Roomerang/roomerang_2.jpg",
+                            "game_images/Roomerang/roomerang_3.jpg",
+                            "game_images/Roomerang/roomerang_4.jpg"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp9_ms/roomerang.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "junktopia_ms",
+                    "name": "Çöpler Şehri",
+                    "internal_name": "AntiqueGame",
+                    "background": "game_backgrounds/Junktopia.webp",
+                    "path": "games/AntiqueGame",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori yanıtlarına oy verebilirler.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Sunum oyunu olduğundan dolayı, en azından oyuncuların birbirini duyabilmeleri önerilir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Moderatörler aynı zamanda oyuncuları atabilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Eşyalarınızı satın",
+                        "small_description": "Eşyalarınızı satın",
+                        "description": "Garip bir büyücü sizi birer kurbağaya dönüştürdü! Garip objelere kahkahalarla dolu hikayeler oluşturun ve onları değerlendirin. En çok değerli eşyalara sahip olan oyuncu yeniden insan olabilir!",
+                        "images": [
+                            "game_images/Junktopia/junktopia.mp4",
+                            "game_images/Junktopia/junktopia_1.jpg",
+                            "game_images/Junktopia/junktopia_2.jpg",
+                            "game_images/Junktopia/junktopia_3.jpg",
+                            "game_images/Junktopia/junktopia_4.jpg"
+                        ],
+                        "tags": [
+                            "writing",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp9_ms/junktopia.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "nonsensory_ms",
+                    "name": "Nonsensory",
+                    "internal_name": "RangeGame",
+                    "background": "game_backgrounds/Nonsensory.webp",
+                    "path": "games/RangeGame",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler doğru cevabı diğer oyuncular eşliğinde tahmin etmeye çalışır. Eğer oyuncuların puanlarını geçerlerse oyunu kazanabilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Moderatörler aynı zamanda oyuncuları atabilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Düşüncelerinizi paylaşın",
+                        "small_description": "Düşüncelerinizi paylaşın",
+                        "description": "Profesör Nanners; bu çizim, yazım ve tahmin etme oyununda sizin Duygusal Olmayan Algınızı test etmek için burada! Başka bir oyuncunun isteminin en saçma ölçeklerdeki sıralamasına ne kadar yakın tahmin edebilirsin?",
+                        "images": [
+                            "game_images/Nonsensory/nonsensory.mp4",
+                            "game_images/Nonsensory/nonsensory_1.jpg",
+                            "game_images/Nonsensory/nonsensory_2.jpg",
+                            "game_images/Nonsensory/nonsensory_3.jpg",
+                            "game_images/Nonsensory/nonsensory_4.jpg"
+                        ],
+                        "tags": [
+                            "writing",
+                            "drawing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp9_ms/nonsensory.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "quixort_ms",
+                    "name": "Hızlı Sırala",
+                    "internal_name": "Lineup",
+                    "background": "game_backgrounds/Quixort.webp",
+                    "path": "games/Lineup",
+                    "game_info": {
+                        "players": {
+                            "min": 1,
+                            "max": 10
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler bir takıma katılır ve oyuncular gibi blokları sıralarlar. Oyunun sonunda en iyi sıralayan seyirci takımı, seyirci ödülünü kazanır.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Tartışma oyunu olduğundan dolayı, oyuncuların en azından birbirlerini duyabilmeleri önerilir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek gerekirse oyuncuları oyundan atabilir.",
+                        "subtitles": true,
+                        "type": "TEAM",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Blokları sıralayın",
+                        "small_description": "Blokları sıralayın",
+                        "description": "Bilgi içeren bu sıralama fabrikasında, takımınızla çalışıp düşen yanıtları yere düşmeden önce düzgün sırasına getirin! Veya, tek oyunculu modda oyna ve taşana kadar kaç tane blok sıralayabileceğini gör. A, C, B kadar kolay!",
+                        "images": [
+                            "game_images/Quixort/quixort.mp4",
+                            "game_images/Quixort/quixort_1.jpg",
+                            "game_images/Quixort/quixort_2.jpg",
+                            "game_images/Quixort/quixort_3.jpg",
+                            "game_images/Quixort/quixort_4.jpg"
+                        ],
+                        "tags": [
+                            "talking",
+                            "knowledge"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp9_ms/quixort.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -2516,15 +3240,14 @@
                 "version": "1.0.0"
             },
             "configuration": {
-                "file": "jbg.config.json",
                 "version_property": "buildVersion",
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
                 "launcher_version_file": {
                     "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
+                    "epic_games": "jbg.config.jet",
                     "native": "jbg.config.jet"
-                },
-                "version_origin": "game_file",
-                "version_file": "jbg.config.json"
+                }
             },
             "resource_location": {
                 "mac": "The Jackbox Party Pack 10.app/Contents/Resources/macos"
@@ -2532,82 +3255,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/2216830/The_Jackbox_Party_Pack_10/",
                 "epic": "https://store.epicgames.com/p/the-jackbox-party-pack-10-c6f152",
-                "jackbox_games_store": "https://shop.jackboxgames.com/collections/staging-party-packs/products/the-jackbox-party-pack-10"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-10"
             },
-            "patchs": [
-                {
-                    "id": "jpp10_tr",
-                    "name": "Jackbox Party Paketi 10",
-                    "small_description": "Jackbox Party Paketi 10'un Türkçe yaması",
-                    "description": "Jackbox Party Paketi 10'un Türkçe yaması",
-                    "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack10/pp10.zip",
-                    "configuration": {
-                        "version_origin": "repo_file",
-                        "version_file": "https://izlence.jackbox.tr/assets/patchs/pp10.json",
-                        "version_property": "TRModVersion"
-                    },
-                    "supported_platforms": [
-                        "windows",
-                        "linux",
-                        "mac"
-                    ],
-                    "supported_launchers": [
-                        "steam",
-                        "native"
-                    ],
-                    "components": [
-                        {
-                            "id": "teeko2-patch",
-                            "linked_game": "teeko2",
-                            "name": "T-K.O. 2",
-                            "description": "T-K.O. 2 oyununun Türkçe yaması",
-                            "authors": "Emeği Geçenler için linklere bakın!",
-                            "small_description": "T-K.O. 2 oyununun Türkçe yaması",
-                            "patch_type": {
-                                "game_text": true,
-                                "game_assets": true,
-                                "game_subtitles": true,
-                                "website": true,
-                                "audios": false
-                            }
-                        },
-                        {
-                            "id": "timejinx-patch",
-                            "linked_game": "timejinx",
-                            "name": "Zaman Kilidi",
-                            "description": "Zaman Kilidi oyununun Türkçe yaması",
-                            "authors": "Emeği Geçenler için linklere bakın!",
-                            "small_description": "Zaman Kilidi oyununun Türkçe yaması",
-                            "patch_type": {
-                                "game_text": true,
-                                "game_assets": true,
-                                "game_subtitles": true,
-                                "website": true,
-                                "audios": false
-                            }
-                        },
-                        {
-                            "id": "dodoremi-patch",
-                            "linked_game": "dodoremi",
-                            "name": "Dodo Re Mi",
-                            "description": "Dodo Re Mi oyununun Türkçe yaması",
-                            "authors": "Emeği Geçenler için linklere bakın!",
-                            "small_description": "Dodo Re Mi oyununun Türkçe yaması",
-                            "patch_type": {
-                                "game_text": true,
-                                "game_assets": true,
-                                "game_subtitles": true,
-                                "website": true,
-                                "audios": false
-                            }
-                        }
-                    ]
-                }
-            ],
+            "patchs": [],
             "games": [
                 {
                     "id": "teeko2",
                     "name": "T-K.O. 2",
+                    "internal_name": "AwShirt2",
                     "background": "game_backgrounds/TeeKO2.webp",
                     "path": "games/AwShirt2",
                     "game_info": {
@@ -2626,7 +3281,6 @@
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
                         "subtitles": true,
-                        "length": "20 - 25 dakika",
                         "type": "VERSUS",
                         "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "Tişört Nakavt",
@@ -2644,21 +3298,21 @@
                             "drawing"
                         ]
                     },
-                    "internal_name": "AwShirt2",
+                    "loader": {
+                        "path": "loaders/tjpp10/teeko2.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp10/teeko2.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "timejinx",
                     "name": "Zaman Kilidi",
+                    "internal_name": "TimeTrivia",
                     "background": "game_backgrounds/Timejinx.webp",
                     "path": "games/TimeTrivia",
                     "game_info": {
@@ -2677,7 +3331,6 @@
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "Bu oyunun moderasyona ihtiyacı yoktur. Ancak \"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek gerekirse oyuncuları oyundan atabilir.",
                         "subtitles": true,
-                        "length": "15 - 20 dakika",
                         "type": "VERSUS",
                         "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "Oynama zamanı",
@@ -2694,21 +3347,21 @@
                             "knowledge"
                         ]
                     },
-                    "internal_name": "TimeTrivia",
+                    "loader": {
+                        "path": "loaders/tjpp10/timejinx.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp10/timejinx.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "fixytext",
                     "name": "FixyText",
+                    "internal_name": "RiskyText",
                     "background": "game_backgrounds/FixyText.webp",
                     "path": "games/RiskyText",
                     "game_info": {
@@ -2727,7 +3380,6 @@
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
                         "subtitles": true,
-                        "length": "15 - 20 dakika",
                         "type": "VERSUS",
                         "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "Tam tamına sözcük karmaşıklığı",
@@ -2744,21 +3396,21 @@
                             "writing"
                         ]
                     },
-                    "internal_name": "RiskyText",
+                    "loader": {
+                        "path": "loaders/tjpp10/fixytext.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp10/fixytext.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "dodoremi",
                     "name": "Dodo Re Mi",
+                    "internal_name": "NopusOpus",
                     "background": "game_backgrounds/DodoReMi.webp",
                     "path": "games/NopusOpus",
                     "game_info": {
@@ -2767,8 +3419,8 @@
                             "max": 9
                         },
                         "playtime": {
-                            "min": 15,
-                            "max": 25
+                            "min": 5,
+                            "max": 10
                         },
                         "family_friendly": "FAMILY_FRIENDLY",
                         "audience": true,
@@ -2778,7 +3430,6 @@
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "Bu oyunun moderasyona ihtiyacı yoktur. Ancak \"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek gerekirse oyuncuları oyundan atabilir.",
                         "subtitles": true,
-                        "length": "15 - 25 dakika",
                         "type": "COOP",
                         "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "Dizginsiz müzik",
@@ -2793,21 +3444,21 @@
                         ],
                         "tags": []
                     },
-                    "internal_name": "NopusOpus",
+                    "loader": {
+                        "path": "loaders/tjpp10/dodoremi.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpp10/dodoremi.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "hypnotorious",
                     "name": "Hypnotorious",
+                    "internal_name": "Strangers",
                     "background": "game_backgrounds/Hypnotorious.webp",
                     "path": "games/Strangers",
                     "game_info": {
@@ -2816,17 +3467,17 @@
                             "max": 8
                         },
                         "playtime": {
-                            "min": 15,
-                            "max": 25
+                            "min": 20,
+                            "max": 30
                         },
                         "family_friendly": "OPTIONAL",
                         "audience": true,
                         "audience_description": "Seyirciler, oyuncuların yazdıkları cevapların en iyisini seçebilir.",
-                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Tartışma oyunu olduğundan dolayı, oyuncuların en azından birbirlerini duyabilmeleri önerilir.",
                         "moderation": "FULL_MODERATION",
                         "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
                         "subtitles": true,
-                        "length": "15 - 25 dakika",
                         "type": "COOP",
                         "translation": "COMMUNITY_TRANSLATED",
                         "tagline": "Hipnoz Takımı",
@@ -2841,18 +3492,304 @@
                         ],
                         "tags": [
                             "writing",
-                            "deduction"
+                            "deduction",
+                            "talking"
                         ]
                     },
-                    "internal_name": "Strangers",
+                    "loader": {
+                        "path": "loaders/tjpp10/hypnotorious.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
                     },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpp10.ico",
+            "background": "backgrounds/jpp10.jpg"
+        },
+        {
+            "id": "jpp10_ms",
+            "name": "Jackbox Parti Paketi 10 [Microsoft Store]",
+            "description": "Çıktığı yıl: 2023",
+            "launchers_id": {
+                "steam": "TJPP10"
+            },
+            "executables": {
+                "windows": "TJPP10.exe",
+                "mac": "The Jackbox Party Pack 10.app/Contents/MacOS/The Jackbox Party Pack 10",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpp10_ms/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_property": "buildVersion",
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "jbg.config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Pack 10.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-pack-10/9p558fw2w073"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "teeko2_ms",
+                    "name": "Tee K.O. 2",
+                    "internal_name": "AwShirt2",
+                    "background": "game_backgrounds/TeeKO2.webp",
+                    "path": "games/AwShirt2",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori şörtlerine oy verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "Tişört Nakavt",
+                        "small_description": "Tişört Nakavt",
+                        "description": "T-K.O. 2'de dünyanın en sert savaşçıların ölümcül bir turnuvada savaştığı Tişört Adasına geri gönersin. Çizen parmak -yumruk değil- zaferi belirler!",
+                        "images": [
+                            "game_images/TeeKO2/teeko2.mp4",
+                            "game_images/TeeKO2/teeko2_1.png",
+                            "game_images/TeeKO2/teeko2_2.png",
+                            "game_images/TeeKO2/teeko2_3.png",
+                            "game_images/TeeKO2/teeko2_4.png"
+                        ],
+                        "tags": [
+                            "drawing",
+                            "writing"
+                        ]
+                    },
                     "loader": {
-                        "path": "loaders/tjpp10/hypnotorious.zip",
+                        "path": "loaders/tjpp10_ms/teeko2.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "timejinx_ms",
+                    "name": "Zaman Kilidi",
+                    "internal_name": "TimeTrivia",
+                    "background": "game_backgrounds/Timejinx.webp",
+                    "path": "games/TimeTrivia",
+                    "game_info": {
+                        "players": {
+                            "min": 1,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler bir oyuncu olarak davranır ve tüm sorulara yanıt verir. Puanları puan tablosunda görünmez ama ortalamaları ekranda görünür.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Bu oyunun moderasyona ihtiyacı yoktur. Ancak \"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek gerekirse oyuncuları oyundan atabilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "Oynama zamanı",
+                        "small_description": "Oynama zamanı",
+                        "description": "Zaman Kilidi'nde gelecekten gelen ve yüksek değerli bir bilgi yarışma gecesinde yarışan bir zaman yolcususun. Geçmiş hakkında sorular cevaplayarak şu anki zaman dilimini kurtar.",
+                        "images": [
+                            "game_images/Timejinx/timejinx.mp4",
+                            "game_images/Timejinx/timejinx_1.png",
+                            "game_images/Timejinx/timejinx_2.png",
+                            "game_images/Timejinx/timejinx_3.png",
+                            "game_images/Timejinx/timejinx_4.png"
+                        ],
+                        "tags": [
+                            "knowledge"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp10_ms/timejinx.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "fixytext_ms",
+                    "name": "FixyText",
+                    "internal_name": "RiskyText",
+                    "background": "game_backgrounds/FixyText.webp",
+                    "path": "games/RiskyText",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori kelimelerine oy verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "Tam tamına sözcük karmaşıklığı",
+                        "small_description": "Tam tamına sözcük karmaşıklığı",
+                        "description": "FixyText, mesaj yazmanın Vahşi Batısıdır. Bu çılgın oyunda herkes bir sohbette, aynı anda en akılda kalıcı mesajları yazar. Ve silme düğmesi yok. Otomatik düzeltmeden daha iyi!",
+                        "images": [
+                            "game_images/FixyText/fixytext.mp4",
+                            "game_images/FixyText/fixytext_1.png",
+                            "game_images/FixyText/fixytext_2.png",
+                            "game_images/FixyText/fixytext_3.png",
+                            "game_images/FixyText/fixytext_4.png"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp10_ms/fixytext.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "dodoremi_ms",
+                    "name": "Dodo Re Mi",
+                    "internal_name": "NopusOpus",
+                    "background": "game_backgrounds/DodoReMi.webp",
+                    "path": "games/NopusOpus",
+                    "game_info": {
+                        "players": {
+                            "min": 1,
+                            "max": 9
+                        },
+                        "playtime": {
+                            "min": 5,
+                            "max": 10
+                        },
+                        "family_friendly": "FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler de şarkıları çalabilir, ama puan alamaz.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Bu oyun, gerçek zamanlı şarkı çalma işlemi içerir. Fakat, her şarkının başında senkronize işlemi bulunur, o yüzden yayın gecikmesi otomatik olarak kaldırılır.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Bu oyunun moderasyona ihtiyacı yoktur. Ancak \"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek gerekirse oyuncuları oyundan atabilir.",
+                        "subtitles": true,
+                        "type": "COOP",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "Dizginsiz müzik",
+                        "small_description": "Dizginsiz müzik",
+                        "description": "Dodo Re Mi'de telefonunuz sizin enstrümanınız. Kuş sürünüzle birlikte müzik yapıp aç orman bitkisinden kurtulmalısınız.",
+                        "images": [
+                            "game_images/DodoReMi/dodoremi.mp4",
+                            "game_images/DodoReMi/dodoremi_1.png",
+                            "game_images/DodoReMi/dodoremi_2.png",
+                            "game_images/DodoReMi/dodoremi_3.png",
+                            "game_images/DodoReMi/dodoremi_4.png"
+                        ],
+                        "tags": []
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp10_ms/dodoremi.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "hypnotorious_ms",
+                    "name": "Hypnotorious",
+                    "internal_name": "Strangers",
+                    "background": "game_backgrounds/Hypnotorious.webp",
+                    "path": "games/Strangers",
+                    "game_info": {
+                        "players": {
+                            "min": 4,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler, oyuncuların yazdıkları cevapların en iyisini seçebilir.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Tartışma oyunu olduğundan dolayı, oyuncuların en azından birbirlerini duyabilmeleri önerilir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "COOP",
+                        "translation": "COMMUNITY_TRANSLATED",
+                        "tagline": "Hipnoz Takımı",
+                        "small_description": "Hipnoz Takımı",
+                        "description": "Hypnotorious gizli rollerin, geçici ittifakların ve tabii ki, saçma sorulara saçma cevapların oyunu. Kimler sizin tarafınızda?",
+                        "images": [
+                            "game_images/Hypnotorious/hypnotorious.mp4",
+                            "game_images/Hypnotorious/hypnotorious_1.png",
+                            "game_images/Hypnotorious/hypnotorious_2.png",
+                            "game_images/Hypnotorious/hypnotorious_3.png",
+                            "game_images/Hypnotorious/hypnotorious_4.png"
+                        ],
+                        "tags": [
+                            "writing",
+                            "deduction",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpp10_ms/hypnotorious.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -2893,13 +3830,14 @@
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1755580/The_Jackbox_Party_Starter/",
                 "epic": "https://store.epicgames.com/p/jackbox-party-starter",
-                "jackbox_games_store": "http://shrsl.com/44k1w"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/packs/the-jackbox-party-starter"
             },
             "patchs": [],
             "games": [
                 {
                     "id": "quiplash3_starter",
                     "name": "Quiplash 3",
+                    "internal_name": "Quiplash3",
                     "background": "game_backgrounds/Quiplash3Starter.webp",
                     "path": "games/Quiplash3",
                     "game_info": {
@@ -2907,7 +3845,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -2935,21 +3872,21 @@
                             "writing"
                         ]
                     },
-                    "internal_name": "Quiplash3",
+                    "loader": {
+                        "path": "loaders/tjpstarter/quiplash3.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpstarter/quiplash3.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "teeko_starter",
                     "name": "T-K.O.",
+                    "internal_name": "AwShirt",
                     "background": "game_backgrounds/TeeKOStarter.webp",
                     "path": "games/AwShirt",
                     "game_info": {
@@ -2957,7 +3894,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -2986,21 +3922,21 @@
                             "writing"
                         ]
                     },
-                    "internal_name": "AwShirt",
+                    "loader": {
+                        "path": "loaders/tjpstarter/teeko.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
-                    },
-                    "loader": {
-                        "path": "loaders/tjpstarter/teeko.zip",
-                        "version": "1.0.0"
                     },
                     "patchs": []
                 },
                 {
                     "id": "trivia_murder_party_2_starter",
                     "name": "Bilgi Cinayet Partisi 2",
+                    "internal_name": "triviadeath2",
                     "background": "game_backgrounds/TriviaMurderParty2Starter.webp",
                     "path": "games/triviadeath2",
                     "game_info": {
@@ -3008,7 +3944,6 @@
                             "min": 1,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -3037,15 +3972,201 @@
                             "knowledge"
                         ]
                     },
-                    "internal_name": "TriviaDeath2",
+                    "loader": {
+                        "path": "loaders/tjpstarter/triviamurderparty2.zip",
+                        "version": "1.0.0"
+                    },
                     "launch_with_loaders": {
                         "steam": false,
                         "epic_games": true,
                         "native": true
                     },
+                    "patchs": []
+                }
+            ],
+            "icon": "jpstarter.ico",
+            "background": "backgrounds/jpstarter.jpg"
+        },
+        {
+            "id": "jpstarter_ms",
+            "name": "Jackbox Parti Başlangıç Paketi [Microsoft Store]",
+            "description": "Çıktığı yıl: 2022",
+            "launchers_id": {
+                "steam": "TJPS"
+            },
+            "executables": {
+                "windows": "TJPS.exe",
+                "mac": "The Jackbox Party Starter.app/Contents/MacOS/The Jackbox Party Pack Starter",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjpstarter/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_origin": "game_file",
+                "version_file": "config.json",
+                "version_property": "buildVersion",
+                "launcher_version_file": {
+                    "steam": "jbg.config.jet",
+                    "epic_games": "config.jet",
+                    "native": "jbg.config.jet"
+                }
+            },
+            "resource_location": {
+                "mac": "The Jackbox Party Starter.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-party-starter/9p59q5khc5dm"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "quiplash3_starter_ms",
+                    "name": "Quiplash 3",
+                    "internal_name": "Quiplash3",
+                    "background": "game_backgrounds/Quiplash3Starter.webp",
+                    "path": "games/Quiplash3",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori yanıtlarına oy verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "İstediğini Söylemenin Parti Oyunu",
+                        "small_description": "İstediğini Söylemenin Parti Oyunu",
+                        "description": "İstediğini söylemenin üçüncü parti oyunu! İstemlere yanıt verin ve arkadaşlarınızı güldürün… muhtemelen.",
+                        "images": [
+                            "game_images/Quiplash3/quiplash3starter.mp4",
+                            "game_images/Quiplash3/quiplash3_1.webp",
+                            "game_images/Quiplash3/quiplash3_2.webp",
+                            "game_images/Quiplash3/quiplash3_3.webp",
+                            "game_images/Quiplash3/quiplash3_4.webp"
+                        ],
+                        "tags": [
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpstarter/quiplash3.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "teeko_starter_ms",
+                    "name": "T-K.O.",
+                    "internal_name": "AwShirt",
+                    "background": "game_backgrounds/TeeKOStarter.webp",
+                    "path": "games/AwShirt",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 25
+                        },
+                        "family_friendly": "FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler favori şörtlerine oy verebilirler. Ek olarak, yazım ve çizim önerileri \"Seyirci Önerileri\" ayarı açıksa ekranda gözükecek şekilde gönderebilir.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması ve \"Seyirci Önerileri\" ayarının kapatılması sadece oyuncuların metin gönderebilmesini sağlamak için önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Tişört Nakavt",
+                        "small_description": "Tişört Nakavt",
+                        "description": "Resim çizin, slogan yazın, sonra özel tişört savaşçı oluşturmak için bunları birbirinizle değişin. Yalnızca en değerli ve en yeni tişört bu turnuvadan sağ ayrılabilir.",
+                        "images": [
+                            "game_images/TeeKO/teekostarter.mp4",
+                            "game_images/TeeKO/teeko_1.webp",
+                            "game_images/TeeKO/teeko_2.webp",
+                            "game_images/TeeKO/teeko_3.webp",
+                            "game_images/TeeKO/teeko_4.webp"
+                        ],
+                        "tags": [
+                            "drawing",
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjpstarter/teeko.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "trivia_murder_party_2_starter_ms",
+                    "name": "Bilgi Cinayet Partisi 2",
+                    "internal_name": "triviadeath2",
+                    "background": "game_backgrounds/TriviaMurderParty2Starter.webp",
+                    "path": "games/triviadeath2",
+                    "game_info": {
+                        "players": {
+                            "min": 1,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "NOT_FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler bir oyuncuyu kontrol eder. Soruları cevaplarlar ve mini-oyunlarda tahminler için oy verirler. Son turda, oyuncularla beraber kaçmaya çalışırlar.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "Bu oyun yayınlarda mükemmel şekilde çalışır. Fakat, \"Şifre\" mini-oyununda, ipucuları birbirleriyle paylaşabilmek için oyuncuların birbirini duyabilmeleri önerilir. Ek olarak, \"Dikte\" mini-oyununda dikteyi duyabilmek için yayının sesi açık olması gerekir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Eğer gerekirse, \"Ekran Üzerine Yazım ve Çizim Yok\" ayarının açılması oyuncuların metin ve çizim göndermesini engellemek için önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Bilgi oyununda sağ kalabilir misin?",
+                        "small_description": "Bilgi oyununda sağ kalabilir misin?",
+                        "description": "Bir seri katil, büyüdüğü ve ailesi tarafından işletilen Cinayet Hotelinde saçma bir bilgi yarışması sunuyor. Hayatta kalabilir misin?",
+                        "images": [
+                            "game_images/TriviaMurderParty2/triviamurderparty2starter.mp4",
+                            "game_images/TriviaMurderParty2/triviamurderparty2_1.webp",
+                            "game_images/TriviaMurderParty2/triviamurderparty2_2.webp",
+                            "game_images/TriviaMurderParty2/triviamurderparty2_3.webp",
+                            "game_images/TriviaMurderParty2/triviamurderparty2_4.webp"
+                        ],
+                        "tags": [
+                            "knowledge"
+                        ]
+                    },
                     "loader": {
                         "path": "loaders/tjpstarter/triviamurderparty2.zip",
                         "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
                     },
                     "patchs": []
                 }
@@ -3072,11 +4193,6 @@
             },
             "configuration": {
                 "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                },
                 "version_origin": "game_file",
                 "version_file": "jbg.config.jet"
             },
@@ -3224,7 +4340,190 @@
                         ],
                         "tags": [
                             "talking",
-                            "drawing"
+                            "drawing",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjnp/letmefinish.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jnp.ico",
+            "background": "backgrounds/jnp.jpg"
+        },
+        {
+            "id": "jnp",
+            "name": "Jackbox Yaramaz Paketi [Microsoft Store]",
+            "description": "Çıktığı yıl: 2024",
+            "launchers_id": {
+                "steam": "JNP"
+            },
+            "executables": {
+                "windows": "JNP.exe",
+                "mac": "The Jackbox Naughty Pack.app/Contents/MacOS/The Jackbox Naughty Pack",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/tjnp_ms/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_property": "buildVersion",
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet"
+            },
+            "resource_location": {
+                "mac": "The Jackbox Naughty Pack.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-naughty-pack/9N1CXS3C4RLS/0010"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "fakinitanl_ms",
+                    "internal_name": "FakinIt2",
+                    "name": "Kandır Beni Tüm Gece",
+                    "background": "game_backgrounds/FakinItANL.webp",
+                    "path": "games/FakinIt2",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 20,
+                            "max": 30
+                        },
+                        "family_friendly": "NOT_FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler, sahtekarın kim olduğunu oyuncularla beraber tahmin etmeye çalışır.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Kirli Sahtekarı Yakalayın!",
+                        "small_description": "Kirli Sahtekarı Yakalayın!",
+                        "description": "Kandır Beni geri döndü ve bu sefer her şeyi masaya koyduk. Herkes bir gizli görev alır ama araya kaynamaya çalışan Sahtekar almaz. Hangi arkadaşlarınızın en iyi yalancı olduğunu ve DAHA fazlasını bulun! “Parmak Silahı” gibi yeni kategorilerle ve yeni “uzaktan oynama” moduyla beraber geliyor. Kim arkadaşlarla güzel bir Parmak Silahı kapışması sevmez?",
+                        "images": [
+                            "game_images/FakinItANL/fakinitanl.mp4",
+                            "game_images/FakinItANL/fakinitanl_1.webp",
+                            "game_images/FakinItANL/fakinitanl_2.webp",
+                            "game_images/FakinItANL/fakinitanl_3.webp"
+                        ],
+                        "tags": [
+                            "deduction",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjnp/fakinitanl.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "dirtydrawful_ms",
+                    "internal_name": "Drawful3",
+                    "name": "Kirli Drawful",
+                    "background": "game_backgrounds/DirtyDrawful.webp",
+                    "path": "games/Drawful3",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "NOT_FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler, oyuncular eşliğinde doğru cevabı tahmin etmeye çalışır, seyircilerin seçtiği veya beğendikleri başlıkları yazan oyunculara puan verilir.",
+                        "stream_friendly": "PLAYABLE",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Stille ile hoş olmayan şeyler çiz!",
+                        "small_description": "Stille hoş olmayan şeyler çiz!",
+                        "description": "Bu Drawful ama kirli… Bu Kirli Drawful. Hiç görmediğiniz Drawful Baykuşunun sunduğu bir oyun. Sevdiğiniz oyunu aldık ve çizimlerinizin hem berbat hem de ateşli olmasını sağlamak için yeni başlıklar yazdık. Bu oyunda her şey var: sevgi, otlar, ve kesinlikle buraya yazamacayağımız şeyler! Bu arada; eğer bir ilişkiye ya da bir çizime sadık kalamıyorsanız, tam sizin için bir geri alma düğmesi ekledik.",
+                        "images": [
+                            "game_images/DirtyDrawful/dirtydrawful.mp4",
+                            "game_images/DirtyDrawful/dirtydrawful_1.webp",
+                            "game_images/DirtyDrawful/dirtydrawful_2.webp",
+                            "game_images/DirtyDrawful/dirtydrawful_3.webp"
+                        ],
+                        "tags": [
+                            "drawing",
+                            "writing"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/tjnp/dirtydrawful.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": false,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                },
+                {
+                    "id": "letmefinish_ms",
+                    "internal_name": "CAPTCHA",
+                    "name": "Sal Bitireyim",
+                    "background": "game_backgrounds/LetMeFinish.webp",
+                    "path": "games/CAPTCHA",
+                    "game_info": {
+                        "players": {
+                            "min": 3,
+                            "max": 8
+                        },
+                        "playtime": {
+                            "min": 15,
+                            "max": 20
+                        },
+                        "family_friendly": "NOT_FAMILY_FRIENDLY",
+                        "audience": true,
+                        "audience_description": "Seyirciler, en çok memnun bırakan oyuncuya oy verebilir ve böylelikle ona bir ödül verebilir.",
+                        "stream_friendly": "MIDLY_PLAYABLE",
+                        "stream_friendly_description": "Sunum oyunu olduğundan dolayı, en azından oyuncuların birbirini duyabilmeleri önerilir.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "\"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek ekrana görünecek yanıtları seçebilir. Eğer gerekirse, \"Ayıplık Filtresi\" ayarının açılması önerilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Çılgınca soruları yanıtlayın!",
+                        "small_description": "Çılgınca soruları yanıtlayın!",
+                        "description": "Sal Bitireyim, hayatın ciddi sorularını öne alan Jackbox'un yeni sunum oyunu. Örneğin “Postacının arka ucu nerede?” veya “Bu avokadoyu nasıl heyecanlandırabilirsin?” Herkesin kendi kafasına göre konuşma fırsatı var ama senin masaya koyduğunu bir başkası alabilir mi?",
+                        "images": [
+                            "game_images/LetMeFinish/letmefinish.mp4",
+                            "game_images/LetMeFinish/letmefinish_1.webp",
+                            "game_images/LetMeFinish/letmefinish_2.webp",
+                            "game_images/LetMeFinish/letmefinish_3.webp"
+                        ],
+                        "tags": [
+                            "talking",
+                            "drawing",
+                            "talking"
                         ]
                     },
                     "loader": {
@@ -3245,7 +4544,7 @@
         {
             "id": "jss",
             "name": "Jackbox Anket Karmaşası",
-            "description": "Year of release: 2024",
+            "description": "Çıktığı yıl: 2024",
             "launchers_id": {
                 "steam": "2948640",
                 "epic": "6d2e6c642bf14068bad5388651538450"
@@ -3261,11 +4560,6 @@
             },
             "configuration": {
                 "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                },
                 "version_origin": "game_file",
                 "version_file": "jbg.config.jet"
             },
@@ -3280,6 +4574,92 @@
             "games": [
                 {
                     "id": "surveyscramble",
+                    "name": "Jackbox Anket Karmaşası",
+                    "background": "game_backgrounds/SurveyScramble.webp",
+                    "path": "",
+                    "game_info": {
+                        "players": {
+                            "min": 2,
+                            "max": 10
+                        },
+                        "playtime": {
+                            "min": 5,
+                            "max": 15
+                        },
+                        "family_friendly": "OPTIONAL",
+                        "audience": true,
+                        "audience_description": "Seyirciler, oyuncular eşliğinde sözcüklere oy verebilirler.",
+                        "stream_friendly": "PLAYABLE",
+                        "stream_friendly_description": "\"Zıplama\" modunda ve oyun yüksek bir hıza ulaştığında, ekranı yayınlayan kişinin diğerlerine göre biraz adil olmayan avantajı olur, fakat çok büyük bir fark oluşturmaz. Diğer tüm modlar yayınlarda kusursuz çalışır.",
+                        "moderation": "FULL_MODERATION",
+                        "moderation_description": "Bu oyunun moderasyona ihtiyacı yoktur. Ancak \"Moderasyon\" ayarı açılınca, moderatörler mod.jackbox.tr adresine girerek gerekirse oyuncuları oyundan atabilir. \"Ayıplık Filtresi\" seçeneği de açılabilir.",
+                        "subtitles": true,
+                        "type": "VERSUS",
+                        "translation": "NATIVELY_TRANSLATED",
+                        "tagline": "Herkesin düşündüğünü düşünebilir misin?",
+                        "small_description": "Herkesin düşündüğünü düşünebilir misin?",
+                        "description": "Ülkedeki herkesin nasıl düğündüğünü keşfet! Jackbox Anket Karmaşası, komik bir anket bazlı oyunlar koleksiyonudur. Gerçek insanlardan gelen gerçek kelimelerle. Gerçekten! Birkaç arkadaş çağırın ve tahmin etmeye başlayın!",
+                        "images": [
+                            "game_images/SurveyScramble/surveyscramble.mp4",
+                            "game_images/SurveyScramble/surveyscramble_1.webp",
+                            "game_images/SurveyScramble/surveyscramble_2.webp",
+                            "game_images/SurveyScramble/surveyscramble_3.webp",
+                            "game_images/SurveyScramble/surveyscramble_4.webp",
+                            "game_images/SurveyScramble/surveyscramble_5.webp"
+                        ],
+                        "tags": [
+                            "deduction",
+                            "knowledge",
+                            "writing",
+                            "talking"
+                        ]
+                    },
+                    "loader": {
+                        "path": "loaders/standalones/standalones.zip",
+                        "version": "1.0.0"
+                    },
+                    "launch_with_loaders": {
+                        "steam": true,
+                        "epic_games": true,
+                        "native": true
+                    },
+                    "patchs": []
+                }
+            ],
+            "icon": "jss.ico",
+            "background": "backgrounds/jss.jpg"
+        },
+        {
+            "id": "jss_ms",
+            "name": "Jackbox Anket Karmaşası [Microsoft Store]",
+            "description": "Çıktığı yıl: 2024",
+            "launchers_id": {
+                "steam": "TJSS"
+            },
+            "executables": {
+                "windows": "TJSS.exe",
+                "mac": "The Jackbox Survey Scramble.app/Contents/MacOS/The Jackbox Survey Scramble",
+                "linux": "Launcher.sh"
+            },
+            "loader": {
+                "path": "loaders/standalones/default.zip",
+                "version": "1.0.0"
+            },
+            "configuration": {
+                "version_property": "buildVersion",
+                "version_origin": "game_file",
+                "version_file": "jbg.config.jet"
+            },
+            "resource_location": {
+                "mac": "The Jackbox Survey Scramble.app/Contents/Resources/macos"
+            },
+            "store_links": {
+                "jackbox_games_store": "https://www.xbox.com/games/store/the-jackbox-survey-scramble/9N0GR077VG2S/0010"
+            },
+            "patchs": [],
+            "games": [
+                {
+                    "id": "surveyscramble_ms",
                     "name": "Jackbox Anket Karmaşası",
                     "background": "game_backgrounds/SurveyScramble.webp",
                     "path": "",
@@ -3353,17 +4733,12 @@
             },
             "configuration": {
                 "version_origin": "game_file",
-                "version_file": "jbg.config.json",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/448080/Fibbage_XL/",
-                "jackbox_games_store": "http://shrsl.com/44k22"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/fibbage"
             },
             "patchs": [],
             "games": [
@@ -3377,7 +4752,6 @@
                             "min": 2,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -3403,6 +4777,11 @@
                             "writing",
                             "knowledge"
                         ]
+                    },
+                    "launch_with_loaders": {
+                        "steam": true,
+                        "epic_games": true,
+                        "native": true
                     },
                     "loader": {
                         "path": "loaders/standalones/standalones.zip",
@@ -3432,20 +4811,15 @@
             },
             "configuration": {
                 "version_origin": "game_file",
-                "version_file": "jbg.config.json",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion"
             },
             "resource_location": {
-                "mac": ""
+                "mac": "Quiplash.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/351510/Quiplash/",
-                "jackbox_games_store": "http://shrsl.com/44k21"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/quiplash"
             },
             "patchs": [],
             "games": [
@@ -3459,7 +4833,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -3491,6 +4864,11 @@
                         "path": "loaders/standalones/standalones.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": true,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 }
             ],
@@ -3502,7 +4880,8 @@
             "name": "Quiplash 2 InterLASHional",
             "description": "Çıktığı yıl: 2020",
             "launchers_id": {
-                "steam": "1111940"
+                "steam": "1111940",
+                "epic": "e912e6d9595b4ff3a7257bcdc82b6671"
             },
             "executables": {
                 "windows": "Quiplash 2 InterLASHional.exe",
@@ -3515,19 +4894,16 @@
             },
             "configuration": {
                 "version_origin": "game_file",
-                "version_file": "jbg.config.json",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion"
             },
             "resource_location": {
                 "mac": "Quiplash 2 InterLASHional.app/Contents/Resources/macos"
             },
             "store_links": {
-                "steam": "https://store.steampowered.com/app/1111940/Quiplash_2_InterLASHional/"
+                "steam": "https://store.steampowered.com/app/1111940/Quiplash_2_InterLASHional/",
+                "epic": "https://store.epicgames.com/p/quiplash-2-interlashional-3c3888",
+                "jackbox_games_store": "https://www.jackboxgames.com/games/quiplash-2-interlashional"
             },
             "patchs": [],
             "games": [
@@ -3541,7 +4917,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -3573,6 +4948,11 @@
                         "path": "loaders/standalones/standalones.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": true,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 }
             ],
@@ -3598,21 +4978,16 @@
             },
             "configuration": {
                 "version_origin": "game_file",
-                "version_file": "jbg.config.json",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_file": "jbg.config.jet",
+                "version_property": "buildVersion"
             },
-            "resource_location":{
-                "mac":"Drawful 2.app/Contents/Resources/macos"
+            "resource_location": {
+                "mac": "Drawful 2.app/Contents/Resources/macos"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/442070/Drawful_2/",
                 "epic": "https://store.epicgames.com/p/drawful-2",
-                "jackbox_games_store": "http://shrsl.com/44k1z"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/drawful-2"
             },
             "patchs": [],
             "games": [
@@ -3626,7 +5001,6 @@
                             "min": 3,
                             "max": 8
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -3659,6 +5033,11 @@
                         "path": "loaders/df2/drawful2.zip",
                         "version": "1.0.0"
                     },
+                    "launch_with_loaders": {
+                        "steam": true,
+                        "epic_games": true,
+                        "native": true
+                    },
                     "patchs": []
                 }
             ],
@@ -3680,16 +5059,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/252730/YOU_DONT_KNOW_JACK_Vol_1_XL/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -3703,7 +5077,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -3752,16 +5125,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260020/YOU_DONT_KNOW_JACK_SPORTS/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -3775,7 +5143,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -3824,16 +5191,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/259940/YOU_DONT_KNOW_JACK_Vol_2/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -3847,7 +5209,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -3896,16 +5257,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260000/YOU_DONT_KNOW_JACK_MOVIES/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -3919,7 +5275,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -3968,16 +5323,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260040/YOU_DONT_KNOW_JACK_TELEVISION/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -3991,7 +5341,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -4040,16 +5389,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/259960/YOU_DONT_KNOW_JACK_Vol_3/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -4063,7 +5407,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -4112,16 +5455,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260060/YOU_DONT_KNOW_JACK_HEADRUSH/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -4135,7 +5473,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -4184,16 +5521,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/259980/YOU_DONT_KNOW_JACK_Vol_4_The_Ride/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "patchs": [],
             "games": [
@@ -4207,7 +5539,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -4256,16 +5587,11 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/260080/YOU_DONT_KNOW_JACK_Vol_6_The_Lost_Gold/",
-                "jackbox_games_store": "http://shrsl.com/44k24"
+                "jackbox_games_store": "https://www.jackboxgames.com/games/ydkj-classic"
             },
             "fixes": [
                 {
@@ -4277,12 +5603,7 @@
                     "configuration": {
                         "version_origin": "repo_file",
                         "version_file": "https://raw.githubusercontent.com/AkiraArtuhaxis/YOU-DONT-KNOW-JACK-Vol-6-Fix/main/config.dat",
-                        "version_property": "buildVersion",
-                        "launcher_version_file": {
-                            "steam": "jbg.config.jet",
-                            "epic_games": "config.jet",
-                            "native": "jbg.config.jet"
-                        }
+                        "version_property": "buildVersion"
                     },
                     "components": [
                         {
@@ -4315,7 +5636,6 @@
                             "min": 1,
                             "max": 3
                         },
-                        "length": "15 - 30 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 30
@@ -4358,21 +5678,16 @@
             },
             "executables": {
                 "windows": "uyw.exe",
-                "mac": "Use Your Words.app/Contents/MacOS/uyw",
+                "mac": "uyw.app/Contents/MacOS/uyw",
                 "linux": "uyw.exe"
             },
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
-            "resource_location":{
-                "mac":"uyw.app/Contents/Resources/Data"
+            "resource_location": {
+                "mac": "uyw.app/Contents/Resources/Data"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/521350/Use_Your_Words/"
@@ -4389,7 +5704,6 @@
                             "min": 3,
                             "max": 6
                         },
-                        "length": "20 - 25 dakika",
                         "playtime": {
                             "min": 20,
                             "max": 25
@@ -4425,7 +5739,7 @@
         },
         {
             "id": "wtd",
-            "name": "What The Dub?!",
+            "name": "Bu Ne Dublaj?!",
             "description": "Çıktığı yıl: 2021",
             "launchers_id": {
                 "steam": "1495860"
@@ -4438,15 +5752,10 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
-            "resource_location":{
-                "mac":"WhatTheDub.app/Contents/Resources/Data"
+            "resource_location": {
+                "mac": "WhatTheDub.app/Contents/Resources/Data"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1495860/What_The_Dub/"
@@ -4455,7 +5764,7 @@
             "games": [
                 {
                     "id": "what_the_dub",
-                    "name": "What The Dub?!",
+                    "name": "Bu Ne Dublaj?!",
                     "background": "game_backgrounds/WhatTheDub.webp",
                     "path": "",
                     "game_info": {
@@ -4463,7 +5772,6 @@
                             "min": 1,
                             "max": 6
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -4479,7 +5787,7 @@
                         "translation": "ENGLISH",
                         "tagline": "Çılgın dublajlama",
                         "small_description": "Çılgın dublajlama",
-                        "description": "What The Dub?!, her oyuncunun gülünç bir şekilde kötü olan filmlerde, demode olan reklamlarda ve çılgın endüstriyel filmlerde eksik olan diyaloglara kendi garip veya saçma dublajlar eklediği çok oyunculu bir parti oyunu!",
+                        "description": "Bu Ne Dublaj?!, her oyuncunun gülünç bir şekilde kötü olan filmlerde, demode olan reklamlarda ve çılgın endüstriyel filmlerde eksik olan diyaloglara kendi garip veya saçma dublajlar eklediği çok oyunculu bir parti oyunu!",
                         "images": [
                             "game_images/WhatTheDub/whatthedub.mp4",
                             "game_images/WhatTheDub/whatthedub_1.webp",
@@ -4512,15 +5820,10 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
-            "resource_location":{
-                "mac":"RiffTraxTheGame.app/Contents/Resources/Data"
+            "resource_location": {
+                "mac": "RiffTraxTheGame.app/Contents/Resources/Data"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1707870/RiffTrax_The_Game/"
@@ -4537,7 +5840,6 @@
                             "min": 1,
                             "max": 6
                         },
-                        "length": "15 - 20 dakika",
                         "playtime": {
                             "min": 15,
                             "max": 20
@@ -4573,7 +5875,7 @@
         },
         {
             "id": "pppts",
-            "name": "Paper Pirates",
+            "name": "Kağıt Korsanlar",
             "description": "Çıktığı yıl: 2020",
             "launchers_id": {
                 "steam": "1234220"
@@ -4586,12 +5888,7 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "store_links": {
                 "steam": "https://store.steampowered.com/app/1234220/Paper_Pirates/"
@@ -4600,7 +5897,7 @@
             "games": [
                 {
                     "id": "paper_pirates",
-                    "name": "Paper Pirates",
+                    "name": "Kağıt Korsanlar",
                     "background": "game_backgrounds/PaperPirates.webp",
                     "path": "",
                     "game_info": {
@@ -4658,12 +5955,7 @@
             "configuration": {
                 "version_origin": "game_file",
                 "version_file": "config.dat",
-                "version_property": "buildVersion",
-                "launcher_version_file": {
-                    "steam": "jbg.config.jet",
-                    "epic_games": "config.jet",
-                    "native": "jbg.config.jet"
-                }
+                "version_property": "buildVersion"
             },
             "resource_location": {
                 "mac": "Papa’s Quiz.app/Contents/Resources/Data"
