@@ -3300,8 +3300,8 @@
                 {
                     "id": "jpp10_tr",
                     "name": "Jackbox Party Paketi 10",
-                    "small_description": "Jackbox Party Paketi 10'un Türkçe yaması",
-                    "description": "Jackbox Party Paketi 10'un Türkçe yaması",
+                    "small_description": "T-K.O. 2, Zaman Kilidi ve Dodo Re Mi yamaları içerir.",
+                    "description": "Tam çevirilenler: T-K.O. 2, Zaman Kilidi ve Dodo Re Mi.\n\nNot: Dodo Re Mi'nin sözlü şarkıları seslendirilmemiştir.\n\nBu yamayı yükledikten sonra oyun ayarlarından dili Türkçe'ye değiştirerek kullanılabilir.",
                     "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack10/pp10.zip",
                     "configuration": {
                         "version_origin": "repo_file",
