@@ -2682,7 +2682,7 @@
                     "name": "Jackbox Party Paketi 9",
                     "small_description": "Jackbox Party Paketi 9'un Türkçe yaması",
                     "description": "Jackbox Party Paketi 9'un Türkçe yaması",
-                    "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack9/pp9.zip",
+                    "patch_path": "https://github.com/YouTube-101/JackboxUtilityTR/releases/download/pack9-v0.17/pp9.zip",
                     "configuration": {
                         "version_origin": "repo_file",
                         "version_file": "https://izlence.jackbox.tr/assets/patchs/pp9.json",
