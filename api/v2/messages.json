@@ -1,0 +1,29 @@
+{
+  "menuComponent" : {
+    "type":"column",
+    "children":[
+      {
+        "type":"text",
+        "text":""
+      },
+      {
+        "type":"text",
+        "text":"Microsoft Store Kullanıcıları:"
+      },
+            {
+        "type":"text",
+        "text":"Microsoft Store'dan alınan oyunların \"Ayarlar\" kısmından elle eklenmesi gerekiyor."
+      },
+      {
+        "type":"text",
+        "text":"Her paketin içindeki bulunan \"Content\" klasörünün seçilmesi gerekiyor. Örnek:"
+      },
+      {
+        "type":"text",
+        "text":"C:/XboxGames/The Jackbox Party Pack 7/Content"
+      }
+    ]
+  },
+  "gamesComponent" : [],
+  "patchesComponent" : []
+}
